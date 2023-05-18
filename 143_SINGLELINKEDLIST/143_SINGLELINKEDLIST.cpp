@@ -158,25 +158,4 @@ int main() {
 					system("pause");
 					system("cls");
 				}
-				else
-					cout << "Data tidak ditemukan" << endl;
-				break;
-			case 3:
-			
-				break;
-			case 4:
-				searchData();
-				break;
-			case 5:
-				break;
-			default:
-				cout << "Piliham tidak ada " << endl;
-				break;
-			}
-		}
-		catch (exception e)
-		{
-			cout << "Terjadi Kesalahan" << endl;
- 		}
-	} while (pilihan != 5);
 }
